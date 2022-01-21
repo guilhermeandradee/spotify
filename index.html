@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-image: url(imagens/backgroundspotify.png);
+            font: bold 23px 'montserrat';
+            color: #fff;
+
+            width: 100%;
+            height: 100%;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            width: 100vw;
+            min-height: 10vh;
+
+            background-color: rgb(15, 15, 15);
+        }
+
+        header img {
+            max-width: 50px;
+        }
+
+        #nome-logo-st {
+            margin-left: 10px;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+        }
+
+        ul li {
+            list-style: none;
+            margin-right: 13px;
+            padding: 5px;
+
+            font-size: 20px;
+        }
+
+        #container-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 100%;
+            height: 90vh;
+        }
+
+
+        #card {
+            display: flex;
+
+            flex-direction: column;
+
+            background-color: rgba(0, 255, 255, 0.336);
+            box-shadow: 0px 0px 15px rgb(0, 0, 0);
+
+            height: 500px;
+            width: 300px;
+
+            margin: auto;
+
+            border-radius: 10px;
+
+            transition-property: all;
+            transition-duration: .3s;
+        }
+
+
+        .layout {
+            max-width: 300px;
+
+            margin: auto;
+            
+        }
+
+        .minecraft {
+            max-width: 250px;
+
+            margin: auto;
+            margin-top: 25px;
+
+            border-radius: 10px;
+            box-shadow: 0px 0px 6px rgba(36, 36, 36, 0.74);
+
+            transition-duration: .2s;
+        }
+
+        #card p {
+            text-align: center;
+            margin-top: 45px;
+            margin-bottom: -60px;
+            font-size: 20px;
+
+            color: rgb(19, 19, 19);
+
+
+        }
+
+        #card:hover {
+            background-color:rgba(17, 158, 158, 0.336);
+
+            
+        }
+
+        
+        .minecraft:hover {
+            filter: saturate(0.5);
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <p id="nome-logo-st">
+            Spotify
+        </p>
+        <ul>
+            <li>Premium</li>
+            <li>Suporte</li>
+            <li>Baixar</li>
+        </ul>
+    </header>
+    <div id="container-card">
+        <div id="card">
+            <img class="img minecraft" src="imagens/minecraft.png" alt="minecraft">
+            <p>Clique aqui</p>
+            <img class="img layout" src="imagens/Spotify Song SVG PNGMSM Files.png" alt="song">
+            
+        </div>
+    </div>
+</body>
+</html>
