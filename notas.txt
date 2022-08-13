@@ -1,0 +1,7 @@
+play   <a href="https://www.flaticon.com/br/icones-gratis/jogar" title="jogar ícones">Jogar ícones criados por Freepik - Flaticon</a>
+
+pause   <a href="https://www.flaticon.com/br/icones-gratis/pausa" title="pausa ícones">Pausa ícones criados por Slidicon - Flaticon</a>
+
+next   <a href="https://www.flaticon.com/free-icons/next" title="next icons">Next icons created by Roundicons - Flaticon</a>
+
+previous  <a href="https://www.flaticon.com/free-icons/previous" title="previous icons">Previous icons created by Roundicons - Flaticon</a>
